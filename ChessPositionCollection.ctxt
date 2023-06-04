@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ChessPositionCollection
+comment0.text=\r\n\ ChessPositionCollection\ is\ a\ singleton\ class\ that\ defines\ all\ positions\ of\ the\ ChessBoard\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=ChessPositionCollection()
+comment2.params=
+comment2.target=ChessPositionCollection\ getInstance()
+comment3.params=
+comment3.target=int\ getRowCount()
+comment4.params=
+comment4.target=int\ getColCount()
+comment5.params=x\ y
+comment5.target=Position\ getPosition(int,\ int)
+numComments=6

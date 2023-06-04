@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Queen
+comment1.params=color\ x\ iconFile
+comment1.target=Queen(PlayerType,\ Position,\ java.lang.String)
+comment2.params=
+comment2.target=java.util.ArrayList\ getLegalMoves()
+numComments=3
