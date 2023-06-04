@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ChessPiece
+comment1.params=c\ ft\ p\ iconFile
+comment1.target=ChessPiece(PlayerType,\ java.lang.String,\ Position,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ fakeType()
+comment3.params=
+comment3.target=PlayerType\ color()
+comment4.params=
+comment4.target=java.awt.image.BufferedImage\ icon()
+comment5.params=
+comment5.target=Position\ pos()
+comment6.params=g
+comment6.target=void\ disp(java.awt.Graphics)
+comment7.params=
+comment7.target=java.util.ArrayList\ getLegalMoves()
+comment8.params=d
+comment8.target=boolean\ canMove(Position)
+comment9.params=d
+comment9.target=void\ move(Position)
+numComments=10
