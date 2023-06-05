@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="doc2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/YouAreWhatYouEat/doc/member-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/YouAreWhatYouEat/doc/package-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/YouAreWhatYouEat/doc/type-search-index.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

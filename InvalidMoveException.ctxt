@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=org.edgemont.csap.finalproject.InvalidMoveException
+comment1.params=message
+comment1.target=org.edgemont.csap.finalproject.InvalidMoveException(java.lang.String)
+numComments=2

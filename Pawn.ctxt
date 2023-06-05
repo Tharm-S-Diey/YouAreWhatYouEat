@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=org.edgemont.csap.finalproject.Pawn
+comment0.text=\r\n\ This\ is\ the\ internal\ pawn\ script.\r\n\r\n\ @author\ Anderson\ Zhang\r\n\ @version\ 1.0\r\n
+comment1.params=color\ x\ iconFile
+comment1.target=org.edgemont.csap.finalproject.Pawn(org.edgemont.csap.finalproject.PlayerType,\ org.edgemont.csap.finalproject.Position,\ java.lang.String)
+comment1.text=\r\n\ pawn\ constructor\r\n\ @param\ color\r\n\ @param\ x\r\n\ @param\ iconFile\r\n\ @throws\ IOException\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getLegalMoves()
+comment2.text=\ Pawns\ can\ initially\ move\ 1\ or\ 2\ steps\ forward.\ Can\ only\ move\ 1\ step\ forward\ afterward.\r\n\ However,\ the\ en\ passant\ move\ is\ possible\ under\ the\ following\ conditions\:\r\n\ -\ the\ enemy\ pawn\ advanced\ two\ squares\ on\ the\ previous\ turn;\r\n\ -\ the\ capturing\ pawn\ attacks\ the\ square\ that\ the\ enemy\ pawn\ passed\ over.\r\n\ The\ capturing\ pawn\ can\ move\ diagonally\ forward\ to\ the\ square\ that\ the\ enemy\ pawn\ passed\r\n\ @return\ a\ list\ of\ legal\ moves\ allowed.\r\n
+comment3.params=diagPos\ posCollection
+comment3.target=boolean\ isDiagonalPosLegal(org.edgemont.csap.finalproject.Position,\ org.edgemont.csap.finalproject.ChessPositionCollection)
+comment4.params=d
+comment4.target=java.util.Stack\ move(org.edgemont.csap.finalproject.Position)
+comment4.text=\r\n\ Moves\ a\ piece.\r\n\ @param\ d\r\n\ @throws\ IOException\r\n
+comment5.params=
+comment5.target=org.edgemont.csap.finalproject.ChessPiece\ transform()
+comment5.text=\r\n\ The\ system\ of\ promoting\ pawns\ in\ this\ twisted\ version\ of\ Chess\ is\ completely\ random.\ You\ cannot\ choose\ which\ piece\ you\ want\ to\ promote\ to\r\n\ @return\r\n\ @throws\ IOException\r\n
+numComments=6

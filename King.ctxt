@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=org.edgemont.csap.finalproject.King
+comment0.text=\r\n\ org.edgemont.csap.finalproject.King\ piece.\ org.edgemont.csap.finalproject.King\ remains\ the\ same\ and\ won't\ swap\ roles\r\n\r\n\ @author\ anderson\ zhang\r\n\ @version\ 1.0\r\n
+comment1.params=color\ x\ iconFile
+comment1.target=org.edgemont.csap.finalproject.King(org.edgemont.csap.finalproject.PlayerType,\ org.edgemont.csap.finalproject.Position,\ java.lang.String)
+comment2.params=p
+comment2.target=boolean\ isInCheck(org.edgemont.csap.finalproject.Position)
+comment3.params=
+comment3.target=java.util.ArrayList\ getLegalMoves()
+comment4.params=checkInCheck
+comment4.target=java.util.ArrayList\ getLegalMoves(boolean)
+comment5.params=p
+comment5.target=boolean\ isNextToOppsKing(org.edgemont.csap.finalproject.Position)
+comment6.params=
+comment6.target=java.util.ArrayList\ getCastlePositions()
+comment6.text=\r\n\ Castling\ is\ unlikely\ because\ pieces\ are\ randomly\ disguised,\ but\ exists\ just\ in\ case\ it\ is\ possible\r\n\ CASTLE\ RULES\:\r\n\ Neither\ the\ king\ nor\ the\ rook\ has\ previously\ moved.\r\n\ There\ are\ no\ pieces\ between\ the\ king\ and\ the\ rook.\r\n\ The\ king\ is\ not\ currently\ in\ check.\r\n\ The\ king\ does\ not\ pass\ through\ or\ finish\ on\ a\ square\ that\ is\ attacked\ by\ an\ enemy\ piece.\r\n\ @return\ positions\ that\ can\ be\ castled\r\n
+comment7.params=walkList\ rookPos\ rookExtra
+comment7.target=boolean\ castleChecker(org.edgemont.csap.finalproject.Position[],\ org.edgemont.csap.finalproject.Position,\ org.edgemont.csap.finalproject.Position)
+comment8.params=d
+comment8.target=java.util.Stack\ move(org.edgemont.csap.finalproject.Position)
+comment9.params=
+comment9.target=java.util.ArrayList\ getLegalMovesSkipCheckInCheck()
+numComments=10

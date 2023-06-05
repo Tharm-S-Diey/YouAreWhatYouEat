@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=org.edgemont.csap.finalproject.ChessPositionCollection
+comment0.text=\r\n\ org.edgemont.csap.finalproject.ChessPositionCollection\ is\ a\ singleton\ class\ that\ defines\ all\ positions\ of\ the\ ChessBoard\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=org.edgemont.csap.finalproject.ChessPositionCollection()
+comment2.params=
+comment2.target=int\ getRowCount()
+comment3.params=
+comment3.target=int\ getColCount()
+comment4.params=x\ y
+comment4.target=org.edgemont.csap.finalproject.Position\ getPosition(int,\ int)
+numComments=5
